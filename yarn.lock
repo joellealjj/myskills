@@ -1291,6 +1291,32 @@
   resolved "https://pkgs.dev.azure.com/golhub/_packaging/gol-npm/npm/registry/@types/prettier/-/prettier-2.3.2.tgz#fc8c2825e4ed2142473b4a81064e6e081463d1b3"
   integrity sha1-/IwoJeTtIUJHO0qBBk5uCBRj0bM=
 
+"@types/prop-types@*":
+  version "15.7.4"
+  resolved "https://pkgs.dev.azure.com/golhub/_packaging/gol-npm/npm/registry/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
+  integrity sha1-/PcgXCXf95Xuea8eMNosl5CAjxE=
+
+"@types/react-native@^0.64.12":
+  version "0.64.12"
+  resolved "https://pkgs.dev.azure.com/golhub/_packaging/gol-npm/npm/registry/@types/react-native/-/react-native-0.64.12.tgz#1c6a3226c26d7a5949cdf8878e6cfe95fe0951d6"
+  integrity sha1-HGoyJsJtellJzfiHjmz+lf4JUdY=
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*", "@types/react@^17.0.14":
+  version "17.0.14"
+  resolved "https://pkgs.dev.azure.com/golhub/_packaging/gol-npm/npm/registry/@types/react/-/react-17.0.14.tgz#f0629761ca02945c4e8fea99b8177f4c5c61fb0f"
+  integrity sha1-8GKXYcoClFxOj+qZuBd/TFxh+w8=
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.2"
+  resolved "https://pkgs.dev.azure.com/golhub/_packaging/gol-npm/npm/registry/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  integrity sha1-GmL4lSVyPd4kuhsBsJK/XfitTTk=
+
 "@types/stack-utils@^2.0.0":
   version "2.0.1"
   resolved "https://pkgs.dev.azure.com/golhub/_packaging/gol-npm/npm/registry/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
@@ -2268,6 +2294,11 @@ cssstyle@^2.3.0:
   integrity sha1-/2ZaDdvcMYZLCWR/NBY0Q9kLCFI=
   dependencies:
     cssom "~0.3.6"
+
+csstype@^3.0.2:
+  version "3.0.8"
+  resolved "https://pkgs.dev.azure.com/golhub/_packaging/gol-npm/npm/registry/csstype/-/csstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
+  integrity sha1-0iZqeScp+yJ80hb7Vy9Dco4a00A=
 
 data-urls@^2.0.0:
   version "2.0.0"
@@ -6369,6 +6400,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha1-qX7nqf9CaRufeD/xvFES/j/KkIA=
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript@^4.3.5:
+  version "4.3.5"
+  resolved "https://pkgs.dev.azure.com/golhub/_packaging/gol-npm/npm/registry/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
+  integrity sha1-TRw3zBbok5c8RaBohrcRMjTxGfQ=
 
 uglify-es@^3.1.9:
   version "3.3.9"
